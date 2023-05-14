@@ -3,4 +3,88 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
+
+body{
+    background-color: green;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 86px;
+    padding: 5px 10%;
+}
+
+
+.header .nav-links{
+    list-style: none;
+
+}
+
+
+img{
+    height: 100vh;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+
+.header .nav-links a{
+    font-size: 700;
+    color:black;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: orange;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px ;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+
+button{
+    margin:0px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+
+button:hover{
+    cursor: pointer;
+    color: black;
+    transform:scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
