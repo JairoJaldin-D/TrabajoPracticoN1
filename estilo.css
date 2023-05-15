@@ -16,18 +16,13 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 86px;
-    padding: 5px 10%;
+    padding: 5px 5%;
 }
 
 
 .header .nav-links{
     list-style: none;
 
-}
-
-
-img{
-    height: 100vh;
 }
 
 .header .nav-links li{
@@ -80,6 +75,80 @@ button:hover{
 }
 
 
+
+img{
+
+
+    position: relative;
+    /*altura*/
+    height: 700px;
+    width: 640px;
+    margin: 0px 0px 0px 0px;
+    
+    
+}
+
+.divuno{
+    margin-left: 250px;
+    border: solid 2px black;
+}
+
+
+
+.padre{
+    display:flex;
+    margin-top: 45px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*top,DERECHO ,BOT, IZQUIERDO.
+    padding: 10px 20px 15px 5px;
+
+
+
+
+.padre{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    padding: 0px;
+background-color: gold;
+height: 80vh;
+
+}
+
+.divuno{
+    
+    
+}
+
+.segundodiv{
+
+    border:1px solid gray;
+    margin: 20px;
+    padding: 20px;
+    
+}
 
 
 
