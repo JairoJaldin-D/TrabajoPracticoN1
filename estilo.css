@@ -80,12 +80,13 @@ img{
 
 
     position: relative;
-    /*altura*/
+    /*altura Y  ANCHO
     height: 700px;
     width: 640px;
-    margin: 0px 0px 0px 0px;
-    
-    
+    */
+    width: 640px;
+    height: 820px;
+  
 }
 
 .divuno{
@@ -105,11 +106,22 @@ img{
 
 
 .segundodiv{
-    border: 2px solid black;
-    margin-right: 620px;
+    
     padding: 23px;
     padding-top: 5px;
+    margin: 0px 620px 0px 140px;
+    /*izquierda y derecha
+    margin-left: 100px;
+    margin-right: 620px;
+    */
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
     
+}
+
+.abuelo{
+    margin:40px;
 }
 
 
@@ -138,6 +150,7 @@ h1{
     border: 2px solid black;
     padding: 5px 25px 5px 25px;    
     border-radius: 15px;
+    margin: 35px;
 }
 
 
@@ -179,7 +192,7 @@ h6{
 .primerformulario{
     margin-top: 30px;
     margin-bottom: 25px;
-    
+    margin-left: 35px;
 }
 
 label{
@@ -191,14 +204,14 @@ label{
 input{
     border: 2px solid black;
     border-radius: 10px;
-    height: 40px;
+    height: 65px;
     width: 95%;
 }
 
 .segundoformulario{
     margin-top: 30px;
     margin-bottom: 25px;
-    
+    margin-left: 35px;
 }
 
 
