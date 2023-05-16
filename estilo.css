@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: gray;
+    background-color: white;
 }
 
 header{
@@ -64,7 +64,7 @@ button{
     background-color: white;
     color: black;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 2.5px solid gainsboro;
 
 }
 
@@ -84,8 +84,8 @@ img{
     height: 700px;
     width: 640px;
     */
-    width: 640px;
-    height: 820px;
+    width: 635px;
+    height: 815px;
   
 }
 
@@ -109,26 +109,28 @@ img{
     
     padding: 23px;
     padding-top: 5px;
-    margin: 0px 620px 0px 140px;
+    margin: 0px 750px 0px 140px;
     /*izquierda y derecha
     margin-left: 100px;
     margin-right: 620px;
     */
     height: auto;
-    border: 2px solid black;
+    border: 2.5px solid gainsboro;
     border-radius: 20px;
     
 }
 
 .abuelo{
-    margin:40px;
+    margin: 25px 0px 30px 0px ;
+    /*margin:25px;*/
 }
 
 
 .titulo{
-    padding-top: 0;
-    margin-top: 50px;
-    margin: 5%;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    /*margin: 5%;*/
     text-align: center;
 }
 
@@ -142,16 +144,25 @@ h1{
     align-items: center;
     justify-content: space-around;
     
+    
 }
 
 
 
 .subiconos{
-    border: 2px solid black;
-    padding: 5px 25px 5px 25px;    
+    border: 2px solid gainsboro;
+    padding: 15px 0px 15px 0px; 
     border-radius: 15px;
     margin: 35px;
 }
+
+.subiconos i{
+    padding-left: 37px;
+    padding-right: 37px;
+    
+}
+
+
 
 
 .tamaño{
@@ -179,15 +190,16 @@ h6{
 
 .botonnaranja{
     display: flex;
-    padding: 10px 25px 10px 25px ;
+    padding: 15px 35px 15px 35px ;
     background-color: #ff7400;
     color: white;
     border-radius: 10px;
     cursor: pointer;
-    border: 1px solid black;
-
 }
 
+.botonnaranja{
+    border: 0;
+    }
 
 .primerformulario{
     margin-top: 30px;
@@ -202,7 +214,7 @@ label{
 
 
 input{
-    border: 2px solid black;
+    border: 2px solid gray;
     border-radius: 10px;
     height: 65px;
     width: 95%;
@@ -230,10 +242,12 @@ input{
 
 
     cursor: pointer; 
-    border: 1px solid black;
-    border-radius: 10px;
-   
     
+    border-radius: 10px;
+    
+}
+.botonfinal{
+    border: 0;
 }
 
 
