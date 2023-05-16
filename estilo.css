@@ -11,8 +11,8 @@ body{
 }
 
 header{
-    background-color: white;
     display: flex;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
     height: 86px;
@@ -84,14 +84,15 @@ img{
     height: 700px;
     width: 640px;
     */
-    width: 635px;
-    height: 815px;
-  
+    width: 650px;
+    height: 840px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
 }
 
 .divuno{
     margin-left: 250px;
-    border: solid 2px black;
+    
 }
 
 
@@ -121,7 +122,7 @@ img{
 }
 
 .abuelo{
-    margin: 25px 0px 30px 0px ;
+    margin: 25px 10px 30px 10px ;
     /*margin:25px;*/
 }
 
